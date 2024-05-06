@@ -1,0 +1,96 @@
+
+
+body{
+    background: linear-gradient(to bottom,blue,black);
+}
+
+.Titulo{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 0;
+}
+
+.button-background {
+    background-color: #f0f0f0; 
+    padding: 10px;
+   
+
+}
+.button-topico {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 200px; 
+   
+}
+
+.button-container button {
+    padding: 10px 20px; 
+    background-color: #000000; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    cursor: pointer;
+    border-radius: 25px; 
+}
+
+.button-container button:hover {
+    background-color: #2600ff;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    margin-top: 25px;
+    gap: 135px; 
+}
+
+.image-container img {
+    width: 200px; 
+}
+
+.topicos {
+    color: white;
+    text-align: center; 
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.topicos li {
+    margin: 5px 0; 
+    
+}
+
+.Instagram-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.whatsapp-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.E-mail-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+footer{
+    color: white;
+}

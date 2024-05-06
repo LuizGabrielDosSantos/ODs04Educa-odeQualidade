@@ -1,0 +1,91 @@
+
+
+body{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.h1-container{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+    padding-bottom: 100px;
+}
+
+.h1-login{
+    display: block;
+    font-size: 50px;
+    margin: 0px;
+    text-shadow: 2px 2px 3px rgb(29, 4, 255);
+    font-family: "Holtwood One SC", serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+ 
+form{
+    max-width: 300px;
+    margin: auto;
+    font-family: "Rubic Mono One",monospace;
+    font-weight: 800;
+    font-style: normal;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text]{
+    box-shadow: 2px 2px 5px rgb(55,5,255);
+    width:100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.Instagram-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.whatsapp-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.E-mail-icon{
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.button-container{
+    text-align: center;
+}
+
+button{
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 4px blue;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    color: white;
+    text-align: left;
+}
+
